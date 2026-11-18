@@ -1,0 +1,37 @@
+{
+  "name": "neon-coast-theme",
+  "displayName": "Neon Coast",
+  "description": "A restrained neon dark theme: pink keywords, cyan functions, mint strings, blue types, and plenty of white on a neutral background. No italics.",
+  "version": "0.2.0",
+  "publisher": "your-publisher-id",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "neon",
+    "pink",
+    "cyan",
+    "sunset",
+    "vice",
+    "synthwave"
+  ],
+  "galleryBanner": {
+    "color": "#1e1e1e",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Neon Coast",
+        "uiTheme": "vs-dark",
+        "path": "./themes/neon-coast-color-theme.json"
+      }
+    ]
+  }
+}
